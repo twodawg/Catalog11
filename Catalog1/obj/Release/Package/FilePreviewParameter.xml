@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="catalog5" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\projects\\Catalog10\\Catalog1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\projects\\Catalog10\\Catalog1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=homethor;Initial Catalog=Widget;Persist Security Info=True;User ID=sa;Password=F15eagle" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\projects\\Catalog10\\Catalog1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="WidgetModel-Web.config Connection String" description="" value="Data Source=homethor;Initial Catalog=Widget;Persist Security Info=True;User ID=sa;Password=F15eagle" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\projects\\Catalog10\\Catalog1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WidgetModel']/@connectionString" />
+  </parameter>
+</parameters>
